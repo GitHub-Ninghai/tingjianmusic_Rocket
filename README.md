@@ -18,9 +18,17 @@
 
 通过终端打开music目录
 
+安装连接mysql数据库所需的diesel
+
+`cargo install diesel_cli --no-default-features --features mysql`
+
+env文件中的
+
+```
+DATABASE_URL=mysql://[ninghai[:Yyt00200059]@]uf6q69f2nvrhjkbkymysqlpolardbreindeer.mysql.polardb.rds.aliyuncs.com/Hearingmusic
+```
+
 使用命令`cargo run`运行后端项目
-
-
 
 ## 前端搭建
 
